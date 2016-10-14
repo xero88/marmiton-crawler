@@ -62,6 +62,7 @@
                 'recipe_name'      => Parser\RecipeName::parse($dom),
                 'guests_number'    => Parser\GuestsNumber::parse($dom),
                 'preparation_time' => Parser\PreparationTime::parse($dom),
+                'is_vegetarian'    => Parser\IsVegetarian::parse($dom),
                 'cook_time'        => Parser\CookTime::parse($dom),
                 'ingredients'      => Parser\Ingredients::parse($dom),
                 'instructions'     => Parser\Instructions::parse($dom)
